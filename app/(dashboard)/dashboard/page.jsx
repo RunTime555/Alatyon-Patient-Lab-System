@@ -204,17 +204,8 @@ export default function DashboardPage() {
                   </div>
                 </div>
 
-                {/* AI */}
-                <div>
-                  <div className="flex items-center gap-1.5 mb-2">
-                    <BrainCircuit size={13} className="text-blue-600" />
-                    <p className="text-[10px] font-black uppercase tracking-widest text-blue-600">AI Analysis</p>
-                  </div>
-                  <div className="p-3 bg-blue-50 border border-blue-100 rounded-xl text-xs text-slate-700 leading-relaxed">
-                    {getParsed(selectedResult.interpretation).ai
-                      || "AI analysis unavailable for this record."}
-                  </div>
-                </div>
+                
+                
               </div>
             )}
           </div>
